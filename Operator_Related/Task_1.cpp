@@ -1,11 +1,10 @@
-#include<iostream>
+#include <iostream>
 
-int main(){
+int main()
+{
 
-    int a,b,res;
+    int a, b, res;
     float sum;
-
-    
 
     return 0;
 }
