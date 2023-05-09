@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+
+    scanf("%d",&a);
+    scanf("%d",&b);
+
+    printf("My age is: %d\n",a);
+    printf("My age is: %d\n",b);
+
+
+    return 0;
+}
