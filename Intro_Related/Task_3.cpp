@@ -13,15 +13,17 @@ int main()
     printf("X--: %d\n", a);
     printf("--X: %d\n", (a - 1));
 
-    int i;
-    float f;
-    char c;
+    scanf("%d", &a);
+    scanf("%d", &b);
 
-    scanf("%d %f %c", &i, &f, &c);
+    printf("\nIncremented Value: %d\n", a + b);
+    printf("\nDecremented Value: %d\n", a - b);
 
-    printf("\nThe integer value: %d\n", i);
-    printf("The floating point value: %f\n", f);
-    printf("The character value: %c\n", c);
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    printf("\nMultiplication Value: %d\n", a * b);
+    printf("\nDivision Value: %d\n", a / b);
 
     return 0;
 }
